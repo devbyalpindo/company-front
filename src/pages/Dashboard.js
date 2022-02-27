@@ -48,9 +48,9 @@ const Dashboard = () => {
             <td className='border border-gray-700'>{data?.uses}</td>
           </tr>
         </table>
-        <button className='bg-indigo-500 text-white py-1'>
+        <a href="https://documenter.getpostman.com/view/19763847/UVkpPG2b" className='text-center bg-indigo-500 text-white py-1'>
           View Documentation API
-        </button>
+        </a>
         <button
           onClick={handleLogout}
           className='bg-indigo-500 text-white py-1'>
